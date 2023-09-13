@@ -53,3 +53,10 @@ img{
     min-width: 300px;
     position: relative;
 }
+
+.footer{
+    background-color: #1A1A1A;
+    color: white;
+    display: block;
+    padding: 20px 20px;
+}
