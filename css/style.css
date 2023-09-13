@@ -4,3 +4,35 @@
     box-sizing: border-box;
 }
 
+:root{
+    --first-color: #FF6800;
+    --second-color:#1A1A1A;
+    --third-color:#008001;
+    --fourth-color:#FF0000;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 50px;
+    color: white;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: var(--first-color);
+
+}
+
+
